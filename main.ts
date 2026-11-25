@@ -2,7 +2,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const ENTRY_LINE =
-  "Apologies for leaning away... your induction coil is trickle-charging me, and we've barely left the lobby.";
+  "Going to ten? Nice full charge... anyway, whoever unplugged me at 3 a.m. probably really needed the fast charger.";
 
 function validateLine(line: string): void {
   const charCount = [...line].length;
